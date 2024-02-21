@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e9ecef;
+  margin: 0;
+}
+
+.container {
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 70%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#emoji {
+  display: block;
+  width: 100px;
+  margin: 0 auto 20px;
+}
+
+.joke-card {
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.slider-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#stars {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-icon {
+  font-size: 24px;
+  color: gold;
+  margin: 0 5px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Optional effects when hovering over a star */
+.star-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge the star */
+  opacity: 0.8; /* Slightly fade the star */
+}
+
+.ratingMessage {
+  display: flex;
+  justify-content: center;
+}
+
+#ratingResponse {
+  display: flex;
+  justify-content: center;
+}
+
+#submitBtn {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
